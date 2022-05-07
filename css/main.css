@@ -1,0 +1,124 @@
+.balck {
+    height: 100px;
+    background-color: #415f77;
+}
+.g-head {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 999999999;
+      
+}
+.margin-bu {
+    margin-bottom: 30px;
+}
+.border {
+    background-color:white;
+    border-bottom: 5px solid #415f77;
+}
+.flex {
+    display: flex;
+}
+.input {
+    border-radius: 99px;
+    border-bottom-right-radius: none;
+    border-top-right-radius: none;
+}
+.seacher {
+    border-radius: 1000px;
+    background-color: white;
+}
+.g-body {
+    margin-top: 20px;
+}
+h3>span {
+    margin-left: 10px;
+    font-size: medium;
+    color: gray;
+}
+li {
+    list-style: none;
+}
+.tm_list-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 10px;  
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.tm_list-img:hover,.tm_list-img:focus,.tm_list-img:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.tm_list {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.hot-li>a{
+    display: block;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    text-decoration :none;
+}
+.more {
+    text-decoration: none;
+    font-size: medium;
+    color: gray;
+    margin-left: 10px;
+}
+.m-all_game {
+    margin-top: 30px;
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    
+}
+.img-raised {
+    height: 100%;
+    width: 90%;
+    position: relative;
+    border-radius: 6px;
+    top: -30px;
+    box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+
+}
+
+.table{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.card-caption>a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+.card-caption{
+    margin-top: 5px;
+}
+.card-blog {
+    margin-bottom: 60px;
+    box-shadow: 0 16px 38px -12px rgb(0 0 0 / 5%), 0 4px 25px 0px rgb(0 0 0 / 5%), 0 8px 10px -5px rgb(0 0 0 / 10%);
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: #415f77;
+}
+.text {
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5%;
+}
